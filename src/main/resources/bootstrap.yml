@@ -3,8 +3,8 @@ spring:
     name: api-service
 
   cloud:
-    #inetutils:
-    #  preferred-networks:
-    #  - 15.164.247.58
+    inetutils:
+      preferred-networks:
+      - 15.164
     config:
       uri: ${configServerUrl}
